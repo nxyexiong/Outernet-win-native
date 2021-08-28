@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="buffer.cpp" />
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="control.cpp" />
+    <ClCompile Include="crypto.cpp" />
+    <ClCompile Include="protocol.cpp" />
+    <ClCompile Include="sys_helper.cpp" />
+    <ClCompile Include="tun.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="main_window.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="buffer.h" />
+    <ClInclude Include="client.h" />
+    <ClInclude Include="control.h" />
+    <ClInclude Include="crypto.h" />
+    <ClInclude Include="protocol.h" />
+    <ClInclude Include="sys_helper.h" />
+    <ClInclude Include="tun.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="json.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="main_window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{64e1e311-2e57-4a92-9bdf-3e22c365fd37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\filter.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\home.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\icon.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\icon.png">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
